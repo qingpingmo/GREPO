@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="assets/images/GREPO_logo.png" alt="Markdownify" width="400">
+  <img src="assets/images/GREPO_logo.png" alt="Markdownify" width="700">
   <br>
   GREPO
   <br>
@@ -12,7 +12,7 @@
 
 
 <h2 align="center">
-  <img src="assets/images/grepo-handwriting.png" alt="GREPO" style="height: 1em; vertical-align: middle;">
+  <img src="assets/images/grepo-handwriting.png" alt="GREPO" style="height: 3em; vertical-align: middle;">
   ：A BENCHMARK FOR GRAPH NEURAL NETWORKS ON REPOSITORY-LEVEL BUG LOCALIZATION
 </h2>
 
