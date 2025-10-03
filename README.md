@@ -29,16 +29,17 @@
 </p>
 
 <p align="center">
-  <a href="#Env">Env</a> •
-  <a href="#Graph-building">Graph-building</a> •
-  <a href="#Crawling">Crawling</a> •
-  <a href="#Graph-Feature-Construction">Graph-Feature-Construction</a> •
-  <a href="#GNN">GNN</a> •
-  <a href="#License">License</a>
+  <a href="#env">Env</a> •
+  <a href="#graph-building">Graph-building</a> •
+  <a href="#crawling">Crawling</a> •
+  <a href="#graph-feature-construction">Graph-Feature-Construction</a> •
+  <a href="#gnn">GNN</a> •
+  <a href="#license">License</a>
 </p>
 
 ![pipeline](assets/images/pipeline.png)
 
+<a id="env"></a>
 ## 📦 Env
 `conda env create -f repognn_environment.yaml`
 
@@ -46,6 +47,7 @@
 
 Clone the repository you need for graph-building into the repos/ directory.
 
+<a id="graph-building"></a>
 ## 🎨 Graph-building
 
 (The following examples are based on analyzing the repository of **conda**)
@@ -71,7 +73,7 @@ Remember to check that the read path points to the data generated for each repos
 
 This will ultimately generate `pyggraph/{name}.timed.pt`.
 
-
+<a id="crawling"></a>
 ## 🤖 Crawling
 
 ### 3.Run`Crawler/GithubRepoAnalysis.py`
@@ -104,7 +106,7 @@ Execute crawling phase only:
 
 
 
-
+<a id="graph-feature-construction"></a>
 ## 🔧 Graph-Feature-Construction
 ### 5.Run`Graph_Feature_Construction/run_full_generation.py`
 
@@ -143,7 +145,7 @@ Note: Check the paths in the code carefully.
 
 `python locate_anchor_node_patch.py --repo conda`
 
-
+<a id="gnn"></a>
 ## 🚀 GNN
 
 ### ⭐️ File-level Prediction
@@ -205,7 +207,7 @@ Taking joint training as an example, the usage for other modes remains consisten
 
 `python GNN_Joint_Train/main.py --joint_training --repos astropy dvc ipython pylint scipy sphinx streamlink xarray geopandas --eval_at_end --eval_freq -1 --gnn_type gatv2 --hidden_dim 32 --num_layers 5 --norm_type layer --dropout 0.1 --input_dropout 0.1 --edge_dropout 0.25 --use_residual --residual_type concat --num_heads 8 --attention_dropout 0.15 --mlp_layers 2 --mlp_dropout 0.1 --learning_rate 0.000897 --weight_decay 0.0174 --loss_type bce_with_logits --pos_weight 40.0 --num_hops 1 --inferer_num_hops 1 --checkpoint_dir /path/to/save/checkpooint --query_cache_file /path/to/save/query_cache.pkl --evaluation_cache_dir /path/to/save/evaluation_cache`
 
-
+<a id="license"></a>
 ## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
