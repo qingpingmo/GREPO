@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://hackmd.io/_uploads/BJGPF5T2xx.png" alt="Markdownify" width="200">
+  <img src="assets/images/GREPO_logo.png" alt="Markdownify" width="200">
   <br>
   GREPO
   <br>
@@ -12,7 +12,7 @@
 
 
 <h4 align="center">
-  <img src="https://hackmd.io/_uploads/Sk3wiqa3xg.png" alt="GREPO" style="height: 1em; vertical-align: middle;">
+  <img src="assets/images/grepo-handwriting.png" alt="GREPO" style="height: 1em; vertical-align: middle;">
   ：A BENCHMARK FOR GRAPH NEURAL NETWORKS ON REPOSITORY-LEVEL BUG LOCALIZATION
 </h4>
 
@@ -29,15 +29,15 @@
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#Env">Env</a> •
+  <a href="#Graph-building">Graph-building</a> •
+  <a href="#Crawling">Crawling</a> •
+  <a href="#Graph-Feature-Construction">Graph-Feature-Construction</a> •
+  <a href="#GNN">GNN</a> •
+  <a href="#License">License</a>
 </p>
 
-![pipeline](https://hackmd.io/_uploads/SyiWQj63gg.png)
+![pipeline](assets/images/pipeline.png)
 
 ## 📦 Env
 `conda env create -f repognn_environment.yaml`
