@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="assets/images/GREPO_logo.png" alt="Markdownify" width="200">
+  <img src="assets/images/GREPO_logo.png" alt="Markdownify" width="400">
   <br>
   GREPO
   <br>
