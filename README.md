@@ -11,10 +11,10 @@
 
 
 
-<h4 align="center">
+<h2 align="center">
   <img src="assets/images/grepo-handwriting.png" alt="GREPO" style="height: 1em; vertical-align: middle;">
   ：A BENCHMARK FOR GRAPH NEURAL NETWORKS ON REPOSITORY-LEVEL BUG LOCALIZATION
-</h4>
+</h2>
 
 
 <p align="center">
